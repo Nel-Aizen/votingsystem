@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  font-family: Poppins;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.flex-container{
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 350px;
+  padding: 40px;
+  padding-bottom: 20px;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+}
+
+h2 {
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sign{
+  justify-content: center;
+  text-align: center;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.sign-up{
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group{
+  border: none;
+  display: flex;
+  align-items: center;
+  background: #dee2e4;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.button{
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+
+.options{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.options label{
+  display: flex;
+  align-items:center;
+  gap: 5px;
+}
+
+.sign-in{
+  color:#007bff;
+  text-decoration: none;
+}
+
+.sign-in{
+  text-decoration: underline;
+}
